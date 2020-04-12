@@ -84,6 +84,7 @@ services:
     container_name: visum-community-service
     ports:
       - 8040:8080
+
   visum-vote-service:
     image: visum-vote-service
     container_name: visum-vote-service
